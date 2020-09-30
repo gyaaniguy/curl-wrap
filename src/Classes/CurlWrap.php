@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 namespace gyaani\guy\Classes;
 
 use phpDocumentor\Reflection\Types\Integer;
@@ -111,10 +109,6 @@ class CurlWrap
     {
         $this->referer = $referer;
         return $this;
-    }
-
-    public function getRawCookies()
-    {
     }
 
     public function useragent($userAgent)
