@@ -99,7 +99,7 @@ class CurlWrap
         $this->options = array_merge($this->options, $options);
     }
 
-    function url($url)
+    public function url($url)
     {
         $this->url = $url;
         return $this;

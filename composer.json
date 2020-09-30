@@ -10,7 +10,6 @@
             "email": "nik.jain@gmail.com"
         }
     ],
-
     "autoload": {
         "psr-4": {
             "gyaani\\guy\\": "src",
