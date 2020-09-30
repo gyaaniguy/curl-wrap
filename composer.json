@@ -15,15 +15,5 @@
             "gyaani\\guy\\": "src",
             "gyaani\\guy\\Classes\\": "src/Classes"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "gyaani\\guy\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "phpunit",
-        "check-style": "phpcs src tests",
-        "fix-style": "phpcbf src tests"
     }
 }
